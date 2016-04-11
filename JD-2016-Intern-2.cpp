@@ -1,11 +1,11 @@
-// Èı×ÓÆå
+// ä¸‰å­æ£‹
 #include<iostream>
 #include<stdio.h>
 using namespace std;
 char a[3][3];
-// ·µ»Ø0£¬ÎŞ·¨»ñÊ¤£»·µ»Ø1£¬»ñÊ¤£»·µ»Ø-1£¬Æå¾Ö²»ºÏ·¨
+// è¿”å›0ï¼Œæ— æ³•è·èƒœï¼›è¿”å›1ï¼Œè·èƒœï¼›è¿”å›-1ï¼Œæ£‹å±€ä¸åˆæ³•.
 int valid(char c){
-    // Ë®Æ½
+    // æ°´å¹³
     int flag=0;
     for(int i=0;i<3;i++){
         int j=0;
@@ -13,14 +13,14 @@ int valid(char c){
             if(a[i][j]!=c)break;
         if(j==3)flag++;
     }
-    // ´¹Ö±
+    // å‚ç›´
     for(int i=0;i<3;i++){
         int j=0;
         for(;j<3;j++)
             if(a[j][i]!=c)break;
         if(j==3)flag++;
     }
-    // ¶Ô½Ç
+    // å¯¹è§’
     int i=0;
     for(;i<3;i++)
         if(a[i][i]!=c)break;
