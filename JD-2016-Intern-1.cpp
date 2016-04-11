@@ -1,4 +1,4 @@
-// 选举游戏
+// 閫変妇娓告垙
 #include<iostream>
 using namespace std;
 int main(){
