@@ -1,4 +1,4 @@
-// 计算重复字符个数
+// 璁＄畻閲嶅瀛楃涓暟
 import java.util.Scanner;
  public class Main{
 	public static void main(String []args){
