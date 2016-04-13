@@ -1,4 +1,4 @@
-// TomµÄÉúÈÕÀñÎï
+// Tomçš„ç”Ÿæ—¥ç¤¼ç‰©
 import java.util.Scanner;
 import java.util.Stack;
 public class Test {
