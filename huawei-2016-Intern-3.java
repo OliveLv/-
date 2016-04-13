@@ -1,4 +1,4 @@
-// ÏûÃğÖÕ¼«BOSS
+// æ¶ˆç­ç»ˆæBOSS
 import java.util.Scanner;
 public class Main{
 	static int min=Integer.MAX_VALUE;
